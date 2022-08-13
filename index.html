@@ -41,7 +41,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">I'm Currently Looking for Work</h4>
+          <h4 class="text-white">Want to Get In Touch?</h4>
           <p class="text-muted">If something here has piqued your interest, why not get in touch?  I've listed a few ways of contacting me under Links.  You're welcome to check out my other relevant profiles if you'd like to learn more about my past projects or work experience first.</p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
@@ -74,7 +74,7 @@
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Hey, it's Mattie</h1>
-        <p class="lead text-muted">I'm a BSc in Computer Science graduate from UBC with a passion for technology that betters people's everyday lives. I'm currently looking for a Junior Software Developer role or internship. Check out some of the stuff I've made below.</p>
+        <p class="lead text-muted">I'm a BSc in Computer Science graduate from UBC with a passion for technology that betters people's everyday lives. I'm currently at Treasure Data as an Enterprise Application Engineer. Check out some of the stuff I've made below.</p>
         <p>
           <a href="resume/MGraf-Resume-2022-03-03.pdf" class="btn btn-primary my-2">Check out my Resume</a>
           <a href="https://www.linkedin.com/in/mattiegraf/" class="btn btn-secondary my-2">Linkedin Profile</a>
@@ -86,16 +86,16 @@
   <div class="album py-5 bg-light">
     <div class="container">
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-4">
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card h-100 shadow-sm">
           <img src="images/task-keeper-thumb.png" alt="A picture of an app called Task Keeper.  On the top of the app screen it is titled Tasks.  There are three tasks displayed on the screen below the title.
           The first says Make doctor's appointment, with a solid check next to it indicating it is done.  The second says Waste time on twitter dot com, also with a solid check next to it.
           The last task says Clean out your computer with compressed air, with a blank box instead of a check mark, indicating the task has not been completed.">
-            <div class="card-body">
-              <h5 class="card-title">Task Keeper</h5>
-              <p class="card-text" style="padding-bottom: 50px;">An android app that provides a place for keeping track of tasks, with a simple organization system that keeps things clear and relevant.  Uses a SQLite database to store information locally.</p>
-              <div class="d-flex justify-content-between align-items-center">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Task Keeper App</h5>
+              <p class="card-text">An android app that provides a place for keeping track of tasks, with a simple organization system that keeps things clear and relevant. Uses a SQLite database to store information locally.  Written in Java.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
                 <div class="btn-group">
                   <button type="button" onclick="location.href='https://github.com/mattiegraf/Task-Keeper'" class="btn btn-sm btn-outline-secondary">Github Repo</button>
                   <button type="button" onclick="location.href='https://github.com/mattiegraf/Task-Keeper/releases/tag/v1.0'" class="btn btn-sm btn-outline-secondary">Download</button>
@@ -103,17 +103,17 @@
                 <small class="text-muted">2021</small>
               </div>
             </div>
-            
           </div>
         </div>
+
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card h-100 shadow-sm">
             <img src="images/lightbug-io-thumb.jpg" alt="The picture is a screenshot from a game called Lightbug dot io.  The screen is covered in darkness, but is illuminated in multiple small areas.
             Inside 5 patches of light are cartoon fireflies.  Inside the other 5 are a single, small white circle that represents a light pellet.">
-            <div class="card-body">
-             <h5 class="card-title">Lightbug.io</h5>
-              <p class="card-text" style="padding-bottom: 50px;" >.io style browser game in which you control a firefly, aiming to survive the allotted time and be the last bug standing.  Includes AI decision making, state changing, mouse following, graphical and lighting effects.</p>
-              <div class="d-flex justify-content-between align-items-center">
+            <div class="card-body d-flex flex-column">
+             <h5 class="card-title">Lightbug.io Web Game</h5>
+              <p class="card-text">.io style browser game in which you control a firefly, aiming to survive the allotted time and be the last bug standing. Includes AI decision making, state changing, mouse following, graphical and lighting effects.  Written in JavaScript using the Phaser 2 framework.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
                 <div class="btn-group">
                   <button type="button" onclick="location.href='https://github.com/mattiegraf/lightbug-io'" class="btn btn-sm btn-outline-secondary">Github Repo</button>
                   <button type="button" onclick="location.href='https://mattiegraf.github.io/lightbug-io/'" class="btn btn-sm btn-outline-secondary">Play</button>
@@ -123,14 +123,32 @@
             </div>
           </div>
         </div>
+
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card h-100 shadow-sm">
+            <img src="images/pomodoro-thumb.png" alt="A screenshot of the Pomodoro Productivity Timer Widget during a Work Session.">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Pomodoro Productivty Widget</h5>
+              <p class="card-text">A simple productivity widget that implements the Pomodoro Technique to help you stay on task and get more work done.  Uses a Web Worker to make sure the timer persists even if it isn't the active tab.  Built with React.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <div class="btn-group">
+                  <button type="button" onclick="location.href='https://github.com/mattiegraf/pomodoro-productivity-timer-widget'" class="btn btn-sm btn-outline-secondary">Github Repo</button>
+                  <button type="button" onclick="location.href='https://pomodoro-productivity-timer-widget-git-master-mattiegraf.vercel.app/'" class="btn btn-sm btn-outline-secondary">Try It</button>
+                </div>
+                <small class="text-muted">2022</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
             <img src="images/VeggieVengeance-thumb.png" alt="A screenshot from the game Veggie Vengeance, a fighting game.  The background is a kitchen environment, and two vegetables stand on the oven.
             One is a potato, the other a broccoli.">
-            <div class="card-body">
-              <h5 class="card-title">Veggie Vengeance</h5>
-              <p class="card-text">A standard, stock fighting game built from the ground up without an engine. Implemented many core mechanics including: the collision system, projectile physics, shared keyboard support, music and playback options, numerous character abilities, hitpoint and stock system.</p>
-              <div class="d-flex justify-content-between align-items-center">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Veggie Vengeance Game</h5>
+              <p class="card-text">A standard, stock fighting game built from the ground up without an engine. Implemented many core mechanics including: the collision system, projectile physics, shared keyboard support, music and playback options, numerous character abilities, hitpoint and stock system. Written in C++.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
                 <div class="btn-group">
                   <button type="button" onclick="location.href='https://github.com/mattiegraf/VeggieVengeance'" class="btn btn-sm btn-outline-secondary">Github Repo</button>
                   <button onclick="location.href='https://www.youtube.com/watch?v=0YJCtSY0wiQ'" type="button" class="btn btn-sm btn-outline-secondary">View Demo</button>
@@ -142,13 +160,13 @@
         </div>
 
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card h-100 shadow-sm">
             <img src="images/forum-database-thumb.png" alt= "In the center of the image there is a cartoon monkey.  There is a banner of cartoon bananas with smiley faces behind the monkey.
             Large text under the monkey reads Boboverse Forum.">
-            <div class="card-body">
-              <h5 class="card-title">Forum Database</h5>
-              <p class="card-text">A web forum built with React with information stored in a MySQL database.  Contains different subforums where users may make new posts and comment on those posts.  Admin users may delete posts and comments at their discretion.</p>
-              <div class="d-flex justify-content-between align-items-center">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Forum Database Web App</h5>
+              <p class="card-text">A web forum built with React with information stored in a MySQL database. Uses Express.js for routing. Contains different subforums where users may make new posts and comment on those posts.  Admin users may delete posts and comments at their discretion.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
                 <div class="btn-group">
                   <button type="button" onclick="location.href='https://github.com/mattiegraf/forum-database'" class="btn btn-sm btn-outline-secondary">Github Repo</button>
                 </div>
@@ -157,15 +175,16 @@
             </div>
           </div>
         </div>
+
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card h-100 shadow-sm">
             <img src="images/reddit-to-discord-thumb.png" alt="The image is a screenshot of a bot message from a discord server.  The message is from Snoobot.
             The message reads: new post from r/UBC.  Questions for seniors and alums by nakedgrape123.
             There is a link to the reddit post and thread.  An discord preview of the described information is displayed underneath.">
-            <div class="card-body">
-              <h5 class="card-title">Reddit to Discord</h5>
-              <p class="card-text" style="padding-bottom: 25px;">Monitors a subreddit for new posts and forwards them to a Discord channel asynchronously.  Makes calls to the Discord and Reddit APIs. Gracefully handles server downtime by restoring missing posts.</p>
-              <div class="d-flex justify-content-between align-items-center">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Reddit to Discord Bot</h5>
+              <p class="card-text">Monitors a subreddit for new posts and forwards them to a Discord channel asynchronously.  Makes calls to the Discord and Reddit APIs. Gracefully handles server downtime by restoring missing posts. Written in JavaScript.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
                 <div class="btn-group">
                   <button type="button" onclick="location.href='https://github.com/mattiegraf/reddit-to-discord'" class="btn btn-sm btn-outline-secondary">Github Repo</button>
                 </div>
@@ -174,15 +193,16 @@
             </div>
           </div>
         </div>
+
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card h-100 shadow-sm">
             <img src="images/unexpected-factorial-thumb.png" alt="The image displays a reddit comment and a single reply.  The first comment is by user cyanwitch, and says 66!
             The reply comment is from CS-Average-BM-Bot, a bot account, that says Warning! Factorials in the comments may be larger than they appear.
             66! = 5.44e+92">
-            <div class="card-body">
-              <h5 class="card-title">Unexpected Factorial</h5>
-              <p class="card-text" style="padding-bottom: 50px;">Reddit bot that responds to comments with factorials in them with their numerical value.  Makes calls to the reddit API.              </p>
-              <div class="d-flex justify-content-between align-items-center">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Unexpected Factorial Bot</h5>
+              <p class="card-text">Reddit bot that responds to comments with factorials in them with their numerical value.  Makes calls to the Reddit API. Written in Python.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
                 <div class="btn-group">
                   <button type="button" onclick="location.href='https://github.com/mattiegraf/unexpected-factorial'" class="btn btn-sm btn-outline-secondary">Github Repo</button>
                 </div>
@@ -191,6 +211,25 @@
             </div>
           </div>
         </div>
+<!--
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/reddit-to-discord-thumb.png" alt="The image is a screenshot of a bot message from a discord server.  The message is from Snoobot.
+            The message reads: new post from r/UBC.  Questions for seniors and alums by nakedgrape123.
+            There is a link to the reddit post and thread.  An discord preview of the described information is displayed underneath.">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Console Uno Game</h5>
+              <p class="card-text">A script that allows you play the card game Uno on your command line.  Includes AI decision making. Written in python.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <div class="btn-group">
+                  <button type="button" onclick="location.href='https://github.com/mattiegraf/reddit-to-discord'" class="btn btn-sm btn-outline-secondary">Github Repo</button>
+                </div>
+                <small class="text-muted">2022</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
       </div>
     </div>
   </div>
